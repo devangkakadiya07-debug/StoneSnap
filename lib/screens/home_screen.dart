@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../services/openai_service.dart';
-import 'collection_screen.dart';
 import 'result_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -54,18 +53,6 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('StoneSnap'),
-        actions: [
-          IconButton(
-            tooltip: 'Collection',
-            icon: const Icon(Icons.collections_bookmark),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const CollectionScreen()),
-              );
-            },
-          ),
-        ],
       ),
       body: Stack(
         children: [

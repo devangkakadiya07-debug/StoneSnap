@@ -58,6 +58,21 @@ class RocksDatabase {
     return maps.map(Rock.fromMap).toList();
   }
 
+  Future<List<Rock>> searchRocks(String query) async {
+    final trimmed = query.trim();
+    if (trimmed.isEmpty) {
+      return fetchRocks();
+    }
+    final db = await database;
+    final maps = await db.query(
+      'rocks',
+      where: 'LOWER(name) LIKE ?',
+      whereArgs: ['%${trimmed.toLowerCase()}%'],
+      orderBy: 'id DESC',
+    );
+    return maps.map(Rock.fromMap).toList();
+  }
+
   Future<String> _persistImage(String sourcePath) async {
     final directory = await getApplicationDocumentsDirectory();
     final imagesDir = Directory(path.join(directory.path, 'rock_images'));

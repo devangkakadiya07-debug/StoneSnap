@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'collection_screen.dart';
+import 'explore_screen.dart';
 import 'home_screen.dart';
 import 'search_screen.dart';
 
@@ -16,6 +17,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
   final List<Widget> _screens = const [
     HomeScreen(),
+    ExploreScreen(),
     CollectionScreen(),
     SearchScreen(),
   ];
@@ -39,6 +41,11 @@ class _MainNavScreenState extends State<MainNavScreen> {
             icon: Icon(Icons.camera_alt_outlined),
             selectedIcon: Icon(Icons.camera_alt),
             label: 'Identify',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.explore_outlined),
+            selectedIcon: Icon(Icons.explore),
+            label: 'Explore',
           ),
           NavigationDestination(
             icon: Icon(Icons.collections_bookmark_outlined),

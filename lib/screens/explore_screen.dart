@@ -9,57 +9,61 @@ class ExploreScreen extends StatelessWidget {
       rocks: [
         _ExploreRock(
           name: 'Amethyst',
-          imageUrl: 'https://source.unsplash.com/featured/?amethyst,crystal',
+          imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/2/20/Amethyst._Magaliesburg%2C_South_Africa.jpg',
           description:
               'Calming purple quartz known for easing stress and promoting clarity.',
         ),
         _ExploreRock(
           name: 'Rose Quartz',
-          imageUrl: 'https://source.unsplash.com/featured/?rose-quartz,crystal',
+          imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/2/2e/Rose_quartz_ball_%28Madagascar%29.jpg',
           description:
               'Soft pink stone associated with compassion and emotional healing.',
         ),
         _ExploreRock(
           name: 'Clear Quartz',
-          imageUrl: 'https://source.unsplash.com/featured/?clear-quartz,crystal',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Quartz%2C_Tibet.jpg',
           description:
               'Versatile crystal used to amplify energy and intentions.',
         ),
         _ExploreRock(
           name: 'Citrine',
-          imageUrl: 'https://source.unsplash.com/featured/?citrine,crystal',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Citrine-Brazil.jpg',
           description: 'Golden quartz linked to optimism, abundance, and creativity.',
         ),
         _ExploreRock(
           name: 'Black Tourmaline',
           imageUrl:
-              'https://source.unsplash.com/featured/?black-tourmaline,crystal',
+              'https://upload.wikimedia.org/wikipedia/commons/1/19/Schorl-tourmaline-173777.jpg',
           description: 'Protective stone believed to absorb negative energy.',
         ),
         _ExploreRock(
           name: 'Selenite',
-          imageUrl: 'https://source.unsplash.com/featured/?selenite,crystal',
+          imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/3/31/Gypsum-var.-selenite-_Naica_Mine%2C_Municipio_de_Saucillo%2C_Chihuahua%2C_Mexico.jpg',
           description: 'Translucent gypsum prized for cleansing and gentle energy.',
         ),
         _ExploreRock(
           name: 'Labradorite',
-          imageUrl: 'https://source.unsplash.com/featured/?labradorite,stone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Labradorite-polished.jpg',
           description: 'Iridescent feldspar said to spark intuition and transformation.',
         ),
         _ExploreRock(
           name: 'Smoky Quartz',
-          imageUrl: 'https://source.unsplash.com/featured/?smoky-quartz,crystal',
+          imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/1/1f/Quartz_smoky_%28GW_31281%29.jpg',
           description: 'Earthy quartz that supports grounding and release.',
         ),
         _ExploreRock(
           name: "Tiger's Eye",
-          imageUrl: 'https://source.unsplash.com/featured/?tigers-eye,stone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Tigers_eye.jpg',
           description: 'Chatoyant stone for confidence and focus.',
         ),
         _ExploreRock(
           name: 'Green Aventurine',
           imageUrl:
-              'https://source.unsplash.com/featured/?green-aventurine,crystal',
+              'https://upload.wikimedia.org/wikipedia/commons/9/9d/Green_Aventurine_%286534505798%29.jpg',
           description: 'Green quartz for luck and heart-centered balance.',
         ),
       ],
@@ -69,52 +73,52 @@ class ExploreScreen extends StatelessWidget {
       rocks: [
         _ExploreRock(
           name: 'Sapphire',
-          imageUrl: 'https://source.unsplash.com/featured/?sapphire,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Sapphire_gem.JPG',
           description: 'Blue corundum valued for durability and regal color.',
         ),
         _ExploreRock(
           name: 'Ruby',
-          imageUrl: 'https://source.unsplash.com/featured/?ruby,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Ruby_gem.JPG',
           description: 'Red corundum symbolizing passion and vitality.',
         ),
         _ExploreRock(
           name: 'Emerald',
-          imageUrl: 'https://source.unsplash.com/featured/?emerald,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Emerald_gem2.jpg',
           description: 'Green beryl prized for rich color and rarity.',
         ),
         _ExploreRock(
           name: 'Diamond',
-          imageUrl: 'https://source.unsplash.com/featured/?diamond,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Cut_diamond.jpg',
           description: 'Hardest gemstone known for brilliance and strength.',
         ),
         _ExploreRock(
           name: 'Opal',
-          imageUrl: 'https://source.unsplash.com/featured/?opal,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Opal-Pietra.JPG',
           description: 'Play-of-color gem with shifting rainbow flashes.',
         ),
         _ExploreRock(
           name: 'Topaz',
-          imageUrl: 'https://source.unsplash.com/featured/?topaz,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Topaz-gem.JPG',
           description: 'Gemstone in warm hues linked to clarity and joy.',
         ),
         _ExploreRock(
           name: 'Garnet',
-          imageUrl: 'https://source.unsplash.com/featured/?garnet,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Garnet-gem-01.jpg',
           description: 'Deep red gem that represents protection and devotion.',
         ),
         _ExploreRock(
           name: 'Peridot',
-          imageUrl: 'https://source.unsplash.com/featured/?peridot,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Peridot-gem.JPG',
           description: 'Olive-green gem born from volcanic origins.',
         ),
         _ExploreRock(
           name: 'Aquamarine',
-          imageUrl: 'https://source.unsplash.com/featured/?aquamarine,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Aquamarine-gem.jpg',
           description: 'Sea-blue beryl associated with calm and clarity.',
         ),
         _ExploreRock(
           name: 'Tanzanite',
-          imageUrl: 'https://source.unsplash.com/featured/?tanzanite,gemstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d6/Tanzanite-gem.jpg',
           description: 'Violet-blue gem found only in Tanzania.',
         ),
       ],
@@ -124,52 +128,53 @@ class ExploreScreen extends StatelessWidget {
       rocks: [
         _ExploreRock(
           name: 'Garnet',
-          imageUrl: 'https://source.unsplash.com/featured/?garnet,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Garnet-gem-01.jpg',
           description: 'January birthstone with deep red glow and resilience.',
         ),
         _ExploreRock(
           name: 'Amethyst',
-          imageUrl: 'https://source.unsplash.com/featured/?amethyst,birthstone',
+          imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/2/20/Amethyst._Magaliesburg%2C_South_Africa.jpg',
           description: 'February birthstone celebrated for serenity and wisdom.',
         ),
         _ExploreRock(
           name: 'Aquamarine',
-          imageUrl: 'https://source.unsplash.com/featured/?aquamarine,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Aquamarine-gem.jpg',
           description: 'March birthstone evoking tranquil seas.',
         ),
         _ExploreRock(
           name: 'Diamond',
-          imageUrl: 'https://source.unsplash.com/featured/?diamond,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Cut_diamond.jpg',
           description: 'April birthstone known for enduring brilliance.',
         ),
         _ExploreRock(
           name: 'Emerald',
-          imageUrl: 'https://source.unsplash.com/featured/?emerald,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Emerald_gem2.jpg',
           description: 'May birthstone symbolizing renewal and growth.',
         ),
         _ExploreRock(
           name: 'Pearl',
-          imageUrl: 'https://source.unsplash.com/featured/?pearl,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Pearl_gem_02.jpg',
           description: 'June birthstone with luminous, organic beauty.',
         ),
         _ExploreRock(
           name: 'Ruby',
-          imageUrl: 'https://source.unsplash.com/featured/?ruby,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Ruby_gem.JPG',
           description: 'July birthstone tied to passion and courage.',
         ),
         _ExploreRock(
           name: 'Peridot',
-          imageUrl: 'https://source.unsplash.com/featured/?peridot,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Peridot-gem.JPG',
           description: 'August birthstone with bright green sparkle.',
         ),
         _ExploreRock(
           name: 'Sapphire',
-          imageUrl: 'https://source.unsplash.com/featured/?sapphire,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Sapphire_gem.JPG',
           description: 'September birthstone signifying loyalty and truth.',
         ),
         _ExploreRock(
           name: 'Opal',
-          imageUrl: 'https://source.unsplash.com/featured/?opal,birthstone',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Opal-Pietra.JPG',
           description: 'October birthstone famed for iridescent color play.',
         ),
       ],
